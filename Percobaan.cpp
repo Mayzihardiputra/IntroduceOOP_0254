@@ -22,4 +22,14 @@ public:
         cout << "gravitasiku : ";
         cin >> gravitasi;
     }
+
+    int main()
+    {
+        Planet venus;
+        venus.inputdata();
+        cout << "namanya adalah " << venus.nama << endl;
+        cout << "diamternya adalah " << venus.diameter << endl;
+
+        venus.displaydata();
+    };
 };
